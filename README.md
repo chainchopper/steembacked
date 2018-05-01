@@ -5,7 +5,7 @@
 
 
 # SteemBackeD - STEEM/SBD Donation - WordPress Plugin
-<strong>A WordPress Plugin That Allows You To Place A "Donate" Button Anywhere In Your Blog That Accepts Shortcodes. It Performs The Donation Transaction Via v2.steemconnect Without Redirecting The Visitor To Another URL For Confirmation, Thus Keeping The Process Seamless. There Are No Keys Required, Just The Username Of The Recipient.</strong>
+<strong>A WordPress Plugin With Customizable Text And Colors That Allows You To Place A "Donate" Button Anywhere In Your Blog That Accepts Shortcodes. It Performs The Donation Transaction Via v2.steemconnect Without Redirecting The Visitor To Another URL For Confirmation, Thus Keeping The Process Seamless. There Are No Keys Required, Just The Username Of The Recipient.</strong>
 
 # How To Install
 
