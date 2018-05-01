@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+.steemBackedOverlay {
+		 position: fixed; top: 0; left: 0; height: 100%; width: 100%; z-index: 10000; background-color: rgba(0,0,0,0.5); display: none;
+}
+
+#steemBackedInner{
+		width:80%;max-width:290px;height:220px;background-color:#fff;position:absolute;border:1px solid #000;top:0;bottom:0;left:0;right:0;margin:auto;box-shadow:5px 10px 8px #000;border-radius:10px;padding:0px;text-align:center
+}
+
+
+	
+	.steemBackedDonateButton{
+		color: #ffffff;
+		background-color: #03F;
+		text-align: right;
+		max-width: 200px !important;
+		width: 100%;
+		height: auto !important;
+		padding: 5px !important;
+		cursor: pointer;
+		border-radius: 5px;	
+		font-size:14px;
+		display: flex !important;
+		
+	}
+	
+	.steemBackedDonateButtonImg{
+		display: table-cell; vertical-align: middle;
+		float: left;
+		width: 15%;
+		max-width: 20px;
+		height: auto;
+		box-sizing: border-box;
+		background-position: left center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		
+	}
+	.steemBackedDonateButtonText{
+		float: left;
+		width: 80%;
+		text-align: center !important;	
+		margin-left: 5%;
+	}
+	
+	
+	.steemBackedDonateButtonChecked{
+		margin-left: auto;
+		margin-right: auto;
+		width: 50px;
+		margin-top: 10px;	
+	}
+
+#backedwrapper{
+	width: 165px; margin-left: auto; margin-right: auto;	
+}
+
+.backedAmountWrap, .backedCurrencyWrap{
+	max-width: 80px !important; width: 80px !important;  height: 30px !important; max-height: 30px !important; border-radius: 5px; border: 1px solid #ccc; display: inline; float: left; margin-top: 5px !important;
+}
+
+.backedAmount, .backedCurrency{
+		width: 80px !important; text-align: center; height: 30px !important; padding: 5px !important; color: #000000 !important; background-color: #ffffff !important;
+}
+.backedCurrencyWrap{
+		margin-left: 5px !important;
+}
+
+button.steemBackedSubmit{
+		width: 170px; height: auto; max-height: 40px; padding: 5px; color: #ffffff; background-color: #09F; margin-top: 20px; border-radius: 5px; margin-left: auto; margin-right: auto; font-size: 16px; line-height: 16px; font-weight: normal !important;
+}
+
+.steemBackedDonateBar{
+		width: 100%; background-color: #CCC; text-align: right; height: 30px; border-radius: 10px 10px 0 0;     
+}
+.steemBackedDonateBox{
+		margin-left: auto; margin-right: auto;  padding: 10px; text-align: center;
+		
+}
+.steemBackedDonateBoxLoader{
+		margin-left: auto; margin-right: auto;  padding: 10px; display: none;
+		
+}
+.steemBackedDonateBarX{
+		float: right; margin-right: 10px; padding-top: 7px; cursor: pointer; font-size: 12px;
+}
+.steemBackedDonateBarXLeft{
+		float: left; margin-left: 10px; padding-top: 7px;  font-size: 12px;
+}
+.steemBackedDonateT{
+		font-size: 18px; font-weight: bold; color: #000000;        
+}
+
+
+
+.speech-bubble {
+	position: absolute;
+	margin-top: -80px;
+	margin-left: 40px;
+	background: #ffffff;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #ffffff;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+
+.steemBackedCallBackUrlMemoB, .steemBackedCallBackUrlMemoBN {
+	position: absolute; margin-top: -60px; margin-left: 20px; width: 200px; padding: 10px; background-color: #ffffff; border: 1px solid #000000; border-radius: 10px; display: none; text-align: center; font-weight: bold; box-shadow:5px 10px 8px #000;	
+}
